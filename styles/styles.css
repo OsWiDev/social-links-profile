@@ -92,3 +92,27 @@
     font-size: 14px;
     border: 0;
   }
+  @media (min-width: 768px) {
+    .profile {
+        padding: 40px;
+    }
+  
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
+  
+    .description h2 {
+        font-size: 28px;
+    }
+  
+    .description p:nth-child(2),
+    .description p:nth-child(3) {
+        font-size: 16px;
+    }
+  
+    .button-section button {
+        height: 50px;
+        font-size: 16px;
+    }
+  }
